@@ -9,7 +9,7 @@ export const metadata = {
 }
 
 storyblokInit({
-  accessToken: 'your-access-token',
+  accessToken: process.env.PREWVIEW_TOEKN,
   use: [apiPlugin]
 })
 
